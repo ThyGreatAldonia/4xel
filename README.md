@@ -28,11 +28,11 @@
 ![image](https://user-images.githubusercontent.com/66850320/216424592-f58610f0-2e0b-43c9-ab4c-7b8f95f62281.png)
 ### 13. Select these permissions
 ![image](https://user-images.githubusercontent.com/66850320/216424773-81765999-9b25-473c-95cc-74f7971aa1b3.png)
-### 14. Open 4xel.exe (Get it at https://github.com/Iurq/4xel/releases/tag/v1.1)
+### 14. Open 4xel.exe (Get it at https://github.com/Iurq/4xel/releases/tag/v2.0a)
 ### 15. Copy and paste the token from step 11.
-![image](https://user-images.githubusercontent.com/66850320/216423244-f05ade8b-f29e-47f3-822b-766ac7107e85.png)
+![image](https://user-images.githubusercontent.com/66850320/216768048-385a5fb3-3a58-4f09-9f3f-bd8efcd77433.png)
 ### 16. Name it whatever you want.
-![image](https://user-images.githubusercontent.com/66850320/216423698-80e03985-6516-4db4-a5bd-e7c40c0f9897.png)
+![image](https://user-images.githubusercontent.com/66850320/216768078-a6d42b96-cee7-4213-95fd-775c12b0a8cb.png)
 ### 17. Go to the server with the bot in it.
 ### 18. Say !scrape.
 ### 19. Return to 4xel and choose the option!
