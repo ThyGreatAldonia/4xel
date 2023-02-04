@@ -32,6 +32,6 @@
 ### 16. Name it whatever you want.
 ![image](https://user-images.githubusercontent.com/66850320/216423698-80e03985-6516-4db4-a5bd-e7c40c0f9897.png)
 ### 17. Go to the server with the bot in it.
-### 18. Say !delta.
-### 19. Done!
+### 18. Say !scrape.
+### 19. Return to 4xel and choose the option!
 ### 20. Any questions? DM me at epoch#0003 or at UGAFG/ISANA
