@@ -1,4 +1,5 @@
-﻿import requests
+
+import requests
 import asyncio
 import aiohttp
 import discord
@@ -6,7 +7,7 @@ from discord.ext import commands
 from colorama import Fore
 import json
 import os
-
+import hashlib
 
 startup = '''
          _____                                            
@@ -20,11 +21,22 @@ startup = '''
  /    '----|  |---.  '.    .'    \    '-.____...---.|   | 
 /          |  |   |  .'     `.    `.             .' |   | 
 '----------|  |---'.'  .'`.   `.    `''-...... -'   '---' 
-           |  |  .'   /    `.   `.                        v2.0a
-          /____\'----'       '----'                       
-
-
+           |  |  .'   /    `.   `.                        v3.0a
+          /____\'----'       '----'      
+          
 '''
+
+premiumKeys = ["snices"]
+
+def check(hash_string):
+    sha_signature = \
+        hashlib.sha256(hash_string.encode()).hexdigest()
+    dre = str(sha_signature)
+    if dre in premiumKeys :
+        print("Successful.")
+        return True
+    else :
+        exit()
 
 def clear(bottomText, startup=startup) :
     os.system("cls")
@@ -34,6 +46,9 @@ def clear(bottomText, startup=startup) :
 
 print(startup)
 print("Made by epoch#0003")
+print("[!] Running PREMIUM version of 4xel, Make sure to have an activation key! [!]")
+KEY = input("Enter your activation key, (THIS IS NOT YOUR TOKEN!) :\n")#
+check(KEY)
 TOKEN = input('Enter your bot token : \n')
 botName = input("Enter your bot name : \n")
 
@@ -67,7 +82,6 @@ os.system('cls')  #clearing console
 while True:
 
   print(f"""           
-
          _____                                            
         /    /                                      .---. 
        /    /                         __.....__     |   | 
@@ -82,7 +96,6 @@ while True:
            |  |  .'   /    `.   `.                        v2.0a
           /____\'----'       '----'                        
                                                                                       
-
 ╔═════════════════════════════╦═════════════════════════════╦═════════════════════════════╗
 ║ [-1-] Delete all channels   ║ [-4-] Ban All               ║                             ║
 ║ [-2-] Mass create channels  ║ [-5-] Mass create roles     ║       [-0-] Full Nuke       ║
